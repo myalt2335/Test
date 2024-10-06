@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verbal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Verbal</h1>
+
+        <div id="code-editor">
+            <pre id="highlighted-code"></pre>
+            <textarea id="code-input" placeholder="Write your script here..."></textarea>
+        </div>
+
+        <button id="run-button">Run</button>
+        <button id="stop-button">Stop</button>
+
+        <div id="output-container">
+            <pre id="output"></pre>
+        </div>
+    </div>
+
+	<div class="version-indicator">V1</div>
+	
+    <script src="interpreter.js"></script>
+</body>
+</html>
