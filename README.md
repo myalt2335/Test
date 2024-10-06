@@ -107,8 +107,11 @@ or if not
 thats it
 
 add with numbers x and y
-    whats a plus b?
+    whats x plus y?
 thats it
+
+whats add with numbers x and y?
+
 repeat hello forever
     but don't say it too fast, just every 3 seconds
 thats it
