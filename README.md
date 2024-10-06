@@ -47,7 +47,7 @@ Optionally, add a delay:
 ```
 repeat hello forever
     but don't say it too fast, just every 3 seconds
-that's it
+thats it
 ```
 
 ## Conditionals
@@ -59,7 +59,7 @@ if x is greater than y
     say x is larger
 or if not
     say y is larger
-that's it
+thats it
 ```
 
 ## Functions
@@ -69,7 +69,7 @@ To define a function:
 ```
 add with numbers a and b
     whats a plus b?
-that's it
+thats it
 ```
 
 To call the function:
@@ -104,19 +104,11 @@ if x is greater than y
     say x is larger
 or if not
     say y is larger
-that's it
-
-loop through numbers x to y
-    whats the current number?
 thats it
 
 add with numbers x and y
     whats a plus b?
 thats it
-
-result is whats add with x and y?
-whats result?
-
 repeat hello forever
     but don't say it too fast, just every 3 seconds
 thats it
