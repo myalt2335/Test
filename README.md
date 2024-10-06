@@ -1,6 +1,6 @@
 # Verbal: Quick Overview
 
-I Created a simple and intuitive coding language. Here are the basics:
+I created a simple and intuitive coding language. Here are the basics:
 
 ## Variables
 
