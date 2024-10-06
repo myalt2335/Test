@@ -1,93 +1,102 @@
-Was bored and made another coding language. Stuff:
+# Verbal: Quick Overview
 
-# Variables:
+I Created a simple and intuitive coding language. Here are the basics:
 
-To assign a variable, simply say what the name is and the value
-Ex: x is 100
+## Variables
 
-To access a variable, simply say:
+To assign a variable, use this format:
 
-What's x?
+```
+x is 100
+```
 
-and it will print the value assigned to x, for example 100.
+To access a variable, ask for its value:
 
-# Basic math operations
+```
+whats x?
+```
 
-Addition:
+This will print the value of `x` (e.g., 100).
 
-Whats x plus y?
+## Basic Math Operations
 
-Subtraction:
+You can perform basic math operations by asking:
 
-Whats x minus y?
+- **Addition**:  
+  `whats x plus y?`
+  
+- **Subtraction**:  
+  `whats x minus y?`
+  
+- **Multiplication**:  
+  `whats x times y?`
+  
+- **Division**:  
+  `whats x divided by y?`
 
-Multiplication:
+## Loops
 
-Whats x times y?
+To create an infinite loop:
 
-Division:
-
-Whats x divided by y?
-
-# Loops
-
-Its easy to define loops:
-
-loop through numbers 1 to 5
-    whats the current number?
-thats it
-
-Line 1 defines that its looping through 1 through 5, then it asks for the number, and "thats it" is "end"
-
-you can also say:
-
+```
 repeat hello forever
+```
 
-to print a value on loop forever
+Optionally, add a delay:
 
-optionally to have it sleep:
-
+```
 repeat hello forever
-	but dont say it too fast just every 3 seconds
-thats it
+    but don't say it too fast, just every 3 seconds
+that's it
+```
 
-# conditionals
-An example would be:
+## Conditionals
 
+You can create conditionals like this:
+
+```
 if x is greater than y
     say x is larger
 or if not
     say y is larger
-thats it
+that's it
+```
 
-This tells it to compare two variables and what to do with them this also shows an example of if/then
+## Functions
 
-# functions
-just say
+To define a function:
 
+```
 add with numbers a and b
     whats a plus b?
-thats it
+that's it
+```
 
-to call a function, such as the example above:
+To call the function:
 
+```
 whats add with numbers a and b?
+```
 
+## Input/Output (I/O)
 
-# I/O
+**Output**:  
+To print the value of `x`:
+```
+whats x?
+```
 
-Output:
-Ex: whats x?
+## Comments
 
-# Comments
+Comments are prefixed with `note`:
 
-A comment in this language would be
-
+```
 note this is a comment
+```
 
+## Sample Script
 
-# A sample script could be:
-
+```
 x is 3
 y is 7
 
@@ -95,7 +104,7 @@ if x is greater than y
     say x is larger
 or if not
     say y is larger
-thats it
+that's it
 
 loop through numbers x to y
     whats the current number?
@@ -105,9 +114,10 @@ add with numbers x and y
     whats a plus b?
 thats it
 
-result is whats add with x and y?    note this is defining a variable that isn't a single character equal to a number, but one equal to a function result
+result is whats add with x and y?
 whats result?
 
 repeat hello forever
-	but dont say it too fast just every 3 seconds
+    but don't say it too fast, just every 3 seconds
 thats it
+```
