@@ -67,15 +67,15 @@ thats it
 To define a function:
 
 ```
-add with numbers a and b
-    whats a plus b?
+add with numbers x and y
+    whats x plus y?
 thats it
 ```
 
 To call the function:
 
 ```
-whats add with numbers a and b?
+whats add with numbers x and y?
 ```
 
 ## Input/Output (I/O)
